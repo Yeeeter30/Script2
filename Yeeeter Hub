@@ -1,0 +1,102 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()local Window = OrionLib:MakeWindow({Name = "Yeeter Hub Launcher", HidePremium = Flase, SaveConfig = True, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Launcher",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+OrionLib:MakeNotification({
+	Name = "Launcher",
+	Content = "Yeeter hub launcher",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+Tab:AddButton({
+	Name = "Yeeter Hub Launcher",
+	Callback = function()
+      		local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()local Window = OrionLib:MakeWindow({Name = "Yeeter Hub", HidePremium = Flase, SaveConfig = True, ConfigFolder = "OrionTest"})
+local Tab = Window:MakeTab({
+	Name = "Main",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+OrionLib:MakeNotification({
+	Name = "Launcher",
+	Content = "Yeeter hub Enjoy",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+local Section = Tab:AddSection({
+	Name = "Universal"
+})
+Tab:AddButton({
+	Name = "Infinite Yield",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Moon UI",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/IlikeyocutgHAH12/MoonUI-v10-/main/MoonUI%20v10'))()
+  	end   
+})
+Tab:AddButton({
+	Name = "Infinite Store",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/Infinite-Store/Infinite-Store/main/main.lua"))()
+  	end   
+})
+local Section = Tab:AddSection({
+	Name = "Prison Life"
+})
+Tab:AddButton({
+	Name = "Prison Life Admin",
+	Callback = function()
+      		loadstring(game:HttpGet('https://pastebin.com/raw/iZ64yzjE'))();
+  	end   
+})
+Tab:AddButton({
+	Name = "Prison Life M9 Mod",
+	Callback = function()
+      		local player = game:GetService("Players").LocalPlayer
+local gun = player.Backpack:FindFirstChild("M9")
+local sM = require(gun:FindFirstChild("GunStates"))
+sM["Damage"] = 999
+sM["MaxAmmo"] = 9999991
+sM["StoredAmmo"] = 9999991
+sM["FireRate"] = 0.05
+sM["AmmoPerClip"] = 9999991
+sM["Range"] = 5000
+sM["ReloadTime"] = 0.05
+sM["Bullets"] = 10
+sM["AutoFire"] = true
+  	end   
+})
+local Tab = Window:MakeTab({
+	Name = "Others",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Others/extencions"
+})
+local Tab = Window:MakeTab({
+	Name = "Owner Scripts",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = False
+})
+Tab:AddButton({
+	Name = "Prison Life Gui",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/VZxFg1wK"))()
+  	end   
+})
+
+  	end    
+})
+Tab:AddButton({
+	Name = "Print Credits",
+	Callback = function()
+      		print("credits 1. yeeeter30")
+  	end   
+})
